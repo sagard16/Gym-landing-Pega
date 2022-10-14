@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.section1{
+    padding: 73px;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topLeft{
+    width: 50%;
+    padding: 12px 0;
+}
+
+.topRight{
+    width: 50%;
+    padding: 0 12px;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.box{
+    margin: 12px 22px;
+    border: 2px solid rgb(87, 87, 224);
+    min-width: 23vw;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 18px;
+}
+ .box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+ }
+
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box li{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 table{
+  width: 100%;
+  margin-bottom: 140px 0;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    padding: 15px 0;
+    border-bottom:  2px solid rgb(87, 87, 224);
+}
+
+.section3 table td{
+    border-bottom: 2px solid rgb(87, 87, 224);
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
